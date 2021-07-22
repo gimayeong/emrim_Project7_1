@@ -10,7 +10,7 @@
         android:id="@+id/item_blue"
         android:title="@string/item_blue" />
     <item
-        android:title="@string/item_btn_change"/>
+        android:title="@string/item_btn_change">
         <menu>
             <item
                 android:id="@+id/item_rotate"
@@ -19,4 +19,5 @@
                 android:id="@+id/item_zoom"
                 android:title="@string/sub_item_zoom"/>
         </menu>
+    </item>
 </menu>
